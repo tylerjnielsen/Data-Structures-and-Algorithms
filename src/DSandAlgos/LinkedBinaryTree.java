@@ -101,7 +101,7 @@ public class LinkedBinaryTree<T, TNode extends BinaryTreeNode<T>>
 	}
 
 	@Override
-	public Iterator<T> iterateInOrder() 
+	public Iterator<T> iteratorInOrder() 
 	{
 		ArrayIndexedList<T> collector = new ArrayIndexedList<T>();
 		inOrder(_root, collector);
@@ -157,7 +157,7 @@ public class LinkedBinaryTree<T, TNode extends BinaryTreeNode<T>>
 	@Override
 	public Iterator<T> iterator()
 	{
-		return iterateInOrder();
+		return iteratorInOrder();
 	}
 	
     public String toString() 

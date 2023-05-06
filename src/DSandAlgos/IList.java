@@ -1,6 +1,6 @@
 package DSandAlgos;
 
-public interface IList<T> extends ICollections, Iterable<T>
+public interface IList<T> extends ICollection, Iterable<T>
 {
 	public T remove(T element) throws IllegalArgumentException;
 	

@@ -1,6 +1,6 @@
 package DSandAlgos;
 
-public interface IQueue<T> extends ICollections
+public interface IQueue<T> extends ICollection
 {
 	
 	public void enqueue(T element) throws IllegalArgumentException;

@@ -65,7 +65,6 @@ public class OrderedListMerger
 		
 		System.out.println(output);	
 		input.close();
-
 	}
 
 }

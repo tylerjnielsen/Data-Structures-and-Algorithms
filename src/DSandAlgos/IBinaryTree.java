@@ -1,7 +1,7 @@
 package DSandAlgos;
 import java.util.Iterator;
 
-public interface IBinaryTree<T> extends ICollections, Iterable<T>
+public interface IBinaryTree<T> extends ICollection, Iterable<T>
 {
 	public T getRootElement();
 	
@@ -9,7 +9,7 @@ public interface IBinaryTree<T> extends ICollections, Iterable<T>
 	
 	public T find(T targetElement) throws IllegalArgumentException;
 	
-	public Iterator<T> iterateInOrder();
+	public Iterator<T> iteratorInOrder();
 	
 	public Iterator<T> iteratorPreOrder();
 	

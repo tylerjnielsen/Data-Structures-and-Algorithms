@@ -2,7 +2,7 @@ package DSandAlgos ;
 
 import java.util.Iterator ;
 
-public interface IGraph<T> extends ICollections, Iterable<T>
+public interface IGraph<T> extends ICollection, Iterable<T>
 {
     public void addEdge( T vertex1, T vertex2, Double cost ) throws IllegalArgumentException  ;
 

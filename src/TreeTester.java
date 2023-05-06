@@ -45,7 +45,7 @@ public class TreeTester {
 		
 		Iterator<Integer> it_pre = intTree.iteratorPreOrder();
 		Iterator<Integer> it_post = intTree.iteratorPostOrder();
-		Iterator<Integer> it_in = intTree.iterateInOrder();
+		Iterator<Integer> it_in = intTree.iteratorInOrder();
 		
 		System.out.println("\nPre-order: ");
 		while (it_pre.hasNext())
