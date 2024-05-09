@@ -15,8 +15,5 @@ public class CompareSortStrategies
 		System.out.println("Insertion Sort\t\t       " + SortingEx.insertionSort(Arrays.copyOf(toSort, toSort.length)));
 		System.out.println("Merge Sort\t\t        " + SortingEx.mergeSort(Arrays.copyOf(toSort, toSort.length)));
 		System.out.println("Quick Sort\t\t       " + SortingEx.quickSort(Arrays.copyOf(toSort, toSort.length)));
-		
-
 	}
-
 }

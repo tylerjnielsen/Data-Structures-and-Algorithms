@@ -1,7 +1,3 @@
-/*Tyler Nielsen
- * CS102 HW#5
- */
-
 import DSandAlgos.*;
 public class HeapSort
 {
